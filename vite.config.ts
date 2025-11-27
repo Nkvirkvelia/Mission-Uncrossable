@@ -3,11 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
+  base: "/Mission-Uncrossable/", // required for GitHub Pages
   plugins: [react()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "src"),
-    },
-  },
-  base: "/Mission-Uncrossable/", // MUST match your repo name
+  resolve: { alias: { "@": path.resolve(__dirname, "src") } },
 });
+
