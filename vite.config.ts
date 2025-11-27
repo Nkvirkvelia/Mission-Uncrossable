@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"),  // <-- This maps "@" to "src" folder
+      "@": path.resolve(__dirname, "src"),
     },
   },
-  base: "/Mission-Uncrossable/" // keep this for GitHub Pages
+  base: "/Mission-Uncrossable/", // MUST match your repo name
 });
