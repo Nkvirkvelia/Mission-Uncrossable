@@ -9,5 +9,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),  // <-- This maps "@" to "src" folder
     },
   },
-  base: "/Mission-Uncrossable/", // keep this for GitHub Pages
+  base: "/Mission-Uncrossable/" // keep this for GitHub Pages
 });
